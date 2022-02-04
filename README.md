@@ -3,7 +3,7 @@ alvanista-exporter
 
 Python3 application to export your public game list from http://alvanista.com
 
-This may serve as backup or the input to another software that load your game library to another game tracker website
+I use it as a personal backup of my collection.
 
 ### Usage
 - Clone this repository
