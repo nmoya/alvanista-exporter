@@ -36,10 +36,10 @@ def dump_humans(games, username):
     output = []
     platforms = list(games.keys())
     for platform in sorted(platforms):
-        output.append(f"{platform}\n")
+        output.append(f"{platform}")
         for game in sorted(games[platform]):
             output.append(f"\t- {game}")
-
+        output.append("\n")
     content = "\n".join(output)
     save(f"{username}.txt", content)
     return content
